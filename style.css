@@ -1,0 +1,28 @@
+body {
+    background-color: #101014;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.game {
+    height: 200px;
+    width: 300px;
+}
+
+.tetris {
+    display: flex;
+    background-color: salmon;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
