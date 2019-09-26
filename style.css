@@ -19,7 +19,7 @@ a {
     width: 300px;
 }
 
-.tetris {
+.tetris, .breakout {
     display: flex;
     background-color: salmon;
     color: #fff;
