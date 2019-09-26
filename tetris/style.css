@@ -67,3 +67,24 @@ canvas {
 .player {
     margin: 30px;
 }
+
+.tetris-green-room_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: -200px;
+    font-size: 1.5rem;
+}
+
+#tetris-green-room__room-input {
+    background: transparent;
+    font-family: 'VT323', monpspace;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+    height: 30px;
+}

@@ -27,6 +27,7 @@ class Tetris {
         }
         this.updateScore(0);
     }
+    
 
     draw() {
         this.context.fillStyle = '#000';
@@ -40,10 +41,22 @@ class Tetris {
     }
 
     drawMatrix(matrix, offset) {
+
+        const colors = [
+            null,
+            'purple',
+            'yellow',
+            'orange',
+            'blue',
+            'aqua',
+            'green',
+            'red'
+          ];
+
         matrix.forEach((row, y) => {
             row.forEach((value, x) => {
                 if (value !== 0) {
-                    this.context.fillStyle = '#fff';
+                    this.context.fillStyle = colors[value];
                     this.context.fillRect(x + offset.x,
                         y + offset.y,
                         1, 1);
