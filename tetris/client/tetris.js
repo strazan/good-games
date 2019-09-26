@@ -77,6 +77,7 @@ class Tetris {
     
     updateScore(score) {
         this.element.querySelector('.score').innerText = score;
+        this.player.dropInterval = 1010 - score;
     }
 
 }

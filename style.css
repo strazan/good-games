@@ -1,10 +1,17 @@
+
 body {
     background-color: #101014;
+    text-align: center;
+    color: #fff;
+    text-justify: center;
+    font-family: 'VT323', monpspace;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
-
 a {
     text-decoration: none;
 }
@@ -12,6 +19,15 @@ a {
 .games {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.navigate-back {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    top: 30px;
+    left: 30px;
 }
 
 .game {
@@ -25,4 +41,25 @@ a {
     color: #fff;
     align-items: center;
     justify-content: center;
+}
+
+.tetris-green-room_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: -200px;
+    font-size: 1.5rem;
+}
+
+#tetris-green-room__room-input {
+    background: transparent;
+    font-family: 'VT323', monpspace;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+    color: #fff;
+    height: 30px;
 }

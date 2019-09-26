@@ -153,8 +153,8 @@ class Player {
         }
     }
 
-    updateScore(elemet, score) {
-        element = score;
-        dropInterval = 1010 - score;
-    }
+    // updateScore(element, score) {
+    //     element = score;
+    //     dropInterval = 1010 - score;
+    // }
 }
