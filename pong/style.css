@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -19,30 +19,22 @@ body {
     left: 30px;
 }
 
-.wrapper {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 50%;
-    margin-left: -200px;
-    margin-top: 100px;
-}
-
 .game--title {
     margin: 0;
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .game--sub-title {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 canvas {
     background: #101014;
     display: block; 
     margin: 0 auto;
-    height: 40vh;
+    height: 70vh;
     border: solid #eee 3px;
 }
