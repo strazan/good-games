@@ -8,5 +8,8 @@
   "dependencies": {
     "async-limiter": "^1.0.1",
     "ws": "^7.1.2"
+  },
+  "scripts": {
+    "start": "node tetris/server/main.js"
   }
 }
