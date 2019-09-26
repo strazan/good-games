@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    background: #101014;
+    color: #eee;
+}
+
+.navigate-back {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    top: 30px;
+    left: 30px;
+}
+
+.game--title {
+    margin: 0;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.game--sub-title {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+canvas {
+    background: #101014;
+    display: block; 
+    margin: 0 auto;
+    height: 70vh;
+    border: solid #eee 3px;
+}
