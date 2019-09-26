@@ -8,7 +8,7 @@ localTetris.element.classList.add('local');
 localTetris.run(); 
 
 const connectionManager = new ConnectionManager(tetrisManager);
-connectionManager.connect('ws://https://impossible-tetris.herokuapp.com')
+connectionManager.connect('ws://impossible-tetris.herokuapp.com')
 
 const keyListener = (event) => {
     [
