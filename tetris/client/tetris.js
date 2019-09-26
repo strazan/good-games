@@ -44,13 +44,13 @@ class Tetris {
 
         const colors = [
             null,
-            'purple',
-            'yellow',
-            'orange',
-            'blue',
-            'aqua',
-            'green',
-            'red'
+            '#B35E5D',
+            '#FFFFB8',
+            '#FFA09E',
+            '#6AA3CC',
+            '#ACBFFA',
+            '#ACB374',
+            '#D9ECFF'
           ];
 
         matrix.forEach((row, y) => {
