@@ -6,6 +6,10 @@ body {
     font-family: 'VT323', monpspace;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
 }
 
 .navigate-back {
@@ -17,21 +21,16 @@ body {
     left: 30px;
 }
 
-.wrapper {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    left: 50%;
-    margin-left: -200px;
-    margin-top: 100px;
+.title-wrapper {
+   margin-top: 20vh;
 }
 
-.game--title {
+.game-title {
     margin: 0;
     font-size: 3rem;
 }
 
-.game--sub-title {
+.game-sub-title {
     font-size: 1.5rem;
 }
 
@@ -44,10 +43,27 @@ body {
     font-size: 3rem;
 }
 
-#score {
+.score {
     font-size: 2.5rem;
+    color: #fff;
+    height: 40px;
+}
+
+.player.local canvas {
+    border: 4px solid rgb(255, 255, 255);
 }
 
 canvas {
-    border: 2px solid #fff;
+    border: 2px solid #777;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.player {
+    margin: 30px;
 }

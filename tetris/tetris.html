@@ -13,13 +13,29 @@
 <body>
     <a href="../index.html" class="navigate-back">back</a>
     <h1 id="is-paused"></h1>
-    <div class="wrapper">
-        <h2 class="game--title">Impossible tetris</h2>
-        <h4 class="game--sub-title">Only 0.01% of people will get 1000 score</h4>
-        <h3 id="score"></h3>
-        <canvas id="tetris" width="240" height="400"></canvas>
+    <div class="title-wrapper">
+        <h2 class="game-title">Impossible tetris</h2>
+        <h4 class="game-sub-title">Only 0.01% of people will get 1000 score</h4>
     </div>
-    <script src="script.js"></script>
+    <div id="players" class="players">
+        <template id="player-template">
+            <div class="player">
+                <h3 class="score"></h3>
+                <canvas class="tetris" width="240" height="400"></canvas>
+            </div>
+        </template>
+        <!-- <div class="player">
+            <h3 class="score"></h3>
+            <canvas class="tetris" width="240" height="400"></canvas>
+        </div> -->
+    </div>
+    <script src="client/tetris-manager.js"></script>
+    <script src="client/connection-manager.js"></script>
+    <script src="client/arena.js"></script>
+    <script src="client/events.js"></script>
+    <script src="client/player.js"></script>
+    <script src="client/tetris.js"></script>
+    <script src="client/main.js"></script>
 </body>
 
 </html>
