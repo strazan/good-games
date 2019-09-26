@@ -1,1 +1,1 @@
-web: node server/main
+web: node tetris/server/main
